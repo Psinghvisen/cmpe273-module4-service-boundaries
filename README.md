@@ -225,6 +225,26 @@ than assuming stock exists, because selling items we may not have is worse
 than asking the customer to retry.
 
 ---
+## Screenshots
+
+### Services running as independent processes
+![Inventory running](screenshots/00a-inventory-running.png)
+![Notification running](screenshots/00b-notification-running.png)
+![Order running](screenshots/00c-order-running.png)
+
+### Successful order (201)
+![Successful order](screenshots/01-success-201.png)
+
+### Item unavailable (409)
+![Item unavailable](screenshots/02-unavailable-409.png)
+
+### OrderCreated event received by Notification Service
+![Notification](screenshots/03-notification.png)
+
+### Failure test: Inventory stopped (503, Order Service still healthy)
+![Failure 503](screenshots/04-failure-503.png)
+![Order Service log](screenshots/05-order-service-log.png)
+
 
 ## 8. Reflection
 
